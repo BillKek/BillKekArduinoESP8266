@@ -14,7 +14,7 @@ ESP8266WebServer server(80);
 
 
 //const int led = 13;
-const int led = 16; // ESP-12E
+const int led = 16; // ESP-12E  nodemcu-devkit-v1.0 board
 
 static const char handleRootStr[] PROGMEM =  R"EOF(
 <!DOCTYPE html><html><body>Choose:<br/><a href="./option1">ESP-12E LED ON</a><br/><a href="./option2">ESP-12E LED OFF</a></body></html>
